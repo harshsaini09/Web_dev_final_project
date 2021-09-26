@@ -1,0 +1,87 @@
+body{
+    margin: 0;
+    padding: 0;
+}
+header{
+    background-image: linear-gradient(rgba(255, 255, 255, 0.6),rgba(0, 0, 0, 0.6)),url(Resources/About.webp);
+    height: 80vh;
+    border-radius: 10px;
+    background-size: cover;
+    background-position: center;
+    background-attachment: fixed;
+    margin-bottom: 100px;
+}
+h1{
+    text-align: center;
+    padding-top: 30%;
+    font-family: monospace;
+    font-size: 60px;
+    color: white;
+    text-transform: capitalize;
+}
+/*-------------------Header-----------------------*/
+.Header_Text{
+    display: inline-block;
+    margin-left: 40px;
+}
+.Header_Text a:link,
+.Header_Text a:visited{
+    padding: 8px 0;
+    color: #000;
+    text-decoration: none;
+    text-transform: uppercase;
+    font-size: 90%;
+    border-bottom: 2px solid transparent;
+    transition: border-bottom 0.2s;
+}
+.Header_Text:hover,
+.Header_Text:active{
+    border-bottom: 2px solid #5DADE2;
+}
+.Header{
+    float: right;
+    list-style: none;
+    margin-top: 0;
+    font-size: 20px;
+    margin-right: 15px;
+    
+}
+/*----------footer-----------*/
+.footer_Text{
+    display: inline-block;
+    margin: 40px;
+}
+.footer_Text a:link,
+.footer_Text a:visited{ 
+    margin-left: -70px;
+    color: #5DADE2;
+    font-size: 90%;
+}
+.footer_Text:hover,
+.footer_Text:active{
+    border-bottom: 2px solid #5DADE2;
+}
+.footer{
+    list-style: none;
+    font-size: 20px;
+    background-color: rgba(204, 204, 204, 0.53);
+    margin-bottom: -20px;   
+    
+}
+p{
+    text-align: justify;
+    font-family: sans-serif;
+    font-size: 20px;
+    margin: 0 40% 0 10%;
+}
+.main{
+    margin-bottom: 20%;
+}
+.image{
+    height: 450px;
+    width: auto;
+    display: inline;
+    float: right;
+    margin-right: 4%;
+    border: 2px solid black;
+}
